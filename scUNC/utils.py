@@ -394,7 +394,7 @@ def load_c_dip_file():
     if platform.system() == "Windows":
         dip_compiled = files_path + "/dip.dll"
     else:
-        dip_compiled =  "/home/dayuhu/code/singlecell/多视图/scMPC/dip.so"
+        dip_compiled =  "./dip.so"
 
     print(dip_compiled)
     if os.path.isfile(dip_compiled):

@@ -11,7 +11,7 @@ ALL_data = dict(
     SMAGE3K = {1: 'SMAGE-3K', 2: 'SMAGE-3K', 'N': 2585, 'K': 14, 'V': 2, 'n_input': [2000,2000], 'n_hid': [10,256], 'n_output': 64},
     )
 
-path = './data/'
+path = '../data/'
 
 def load_data(dataset):
     data = h5py.File(path + dataset[1] + ".mat")
@@ -37,6 +37,7 @@ def load_data(dataset):
         X[v] = torch.from_numpy(X[v])
 
     return X, Y
+
 
 
 

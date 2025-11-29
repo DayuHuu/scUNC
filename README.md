@@ -7,7 +7,7 @@
 
 ## 📖 Overview
 
-**scUNC** is an innovative multi-view clustering approach tailored for single-cell data, designed to seamlessly integrate information from different views without the need for a predefined number of clusters.
+**scUNC** is an innovative multi-view clustering approach tailored for single-cell data, designed to seamlessly integrate information from different views without the need for a predefined number of clusters
 
 Single-cell multi-view clustering enables the exploration of cellular heterogeneity. However, existing methods face two primary challenges:
 1.  **Data Disparity:** They often treat scRNA and scATAC views as equally significant, overlooking the substantial disparity in data richness, which leads to performance degradation.
